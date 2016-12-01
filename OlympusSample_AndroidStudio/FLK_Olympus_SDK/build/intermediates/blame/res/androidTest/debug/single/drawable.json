@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/androidTest/debug/drawable/flk_olympus_btn_setting.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/drawable/flk_olympus_btn_setting.xml"
+    },
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/androidTest/debug/drawable/flk_olympus_btn_ok.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/drawable/flk_olympus_btn_ok.xml"
+    },
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/androidTest/debug/drawable/flk_olympus_checkbox.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/drawable/flk_olympus_checkbox.xml"
+    },
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/androidTest/debug/drawable/flk_olympus_list_selector.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/drawable/flk_olympus_list_selector.xml"
+    },
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/androidTest/debug/drawable/flk_olympus_btn_top.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/drawable/flk_olympus_btn_top.xml"
+    },
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/androidTest/debug/drawable/flk_olympus_btn_conview.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/drawable/flk_olympus_btn_conview.xml"
+    },
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/androidTest/debug/drawable/flk_olympus_btn_del.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/drawable/flk_olympus_btn_del.xml"
+    },
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/androidTest/debug/drawable/flk_olympus_btn_radio.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/drawable/flk_olympus_btn_radio.xml"
+    },
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/androidTest/debug/drawable/flk_olympus_coupon_box.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/drawable/flk_olympus_coupon_box.xml"
+    },
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/androidTest/debug/drawable/flk_olympus_btn_listdel.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/drawable/flk_olympus_btn_listdel.xml"
+    },
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/androidTest/debug/drawable/flk_olympus_btn_square.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/drawable/flk_olympus_btn_square.xml"
+    },
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/androidTest/debug/drawable/flk_olympus_btn_back.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/drawable/flk_olympus_btn_back.xml"
+    },
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/androidTest/debug/drawable/flk_olympus_btn_condel.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/drawable/flk_olympus_btn_condel.xml"
+    }
+]

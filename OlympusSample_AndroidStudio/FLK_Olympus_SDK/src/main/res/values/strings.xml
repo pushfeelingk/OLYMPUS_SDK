@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="flk_olympus_yes">예</string>
+	<string name="flk_olympus_no">아니오</string>
+	<string name="flk_olympus_confirm">확인</string>
+	<string name="flk_olympus_cancel">취소</string>
+	
+	<string name="flk_olympus_title">Message Box</string>
+	<string name="flk_olympus_empty_msg">받은 메시지가 없습니다.</string>
+	<string name="flk_olympus_format_coupon_expire">유효기간 %s</string>
+	<string name="flk_olympus_receive_config">수신 동의함</string>
+	<string name="flk_olympus_receive_config_desc">쿠폰 메시지 수신에 대하여 동의합니다.</string>
+	<string name="flk_olympus_user_info_config">부가 정보 설정</string>
+	<string name="flk_olympus_user_info_config_desc">부가정보를 입력 하시면 맞춤 쿠폰을 수신 할 수 있습니다.</string>
+	
+	<string name="flk_olympus_user_info_config_gender">성별</string>
+	<string name="flk_olympus_user_info_config_age">연령</string>
+	<string name="flk_olympus_user_info_config_interest">쿠폰 관심 분류</string>
+	
+	<string name="flk_olympus_noti_msg_coupon_delete">쿠폰을 삭제하시곘습니까?</string>
+	<string name="flk_olympus_noti_msg_coupon_all_delete">받은쿠폰을 모두 삭제하시겠습니까?</string>
+	<string name="flk_olympus_noti_msg_location_permission">정확한 서비스를 위해서는 위치서비스를 켜주세요</string>
+	<string name="flk_olympus_noti_msg_confi_save_confirm">변경된 설정정보를 저장하시겠습니까?</string>
+	
+	<string name="flk_olympus_toast_location_agree_check">위치 및 마케팅 이용동의를 확인해주세요</string>
+	<string name="flk_olympus_toast_coupon_delete_empty">삭제할 메시지가 없습니다.</string>
+	<string name="flk_olympus_toast_optional_info_select_empty">부가정보 설정에 \"%s\"항목을 선택해주세요.</string>
+	<string name="flk_olympus_toast_delete_msg">메시지가 삭제되었습니다.</string>
+	<string name="flk_olympus_toast_last_msg">더 이상 메시지가 없습니다.</string>
+	
+	<string name="flk_olympus_location_agree">위치 및 마케팅 이용 동의</string>
+	<string name="flk_olympus_location_agree_check_desc">쿠폰에 대한 유의사항을 모두 확인하였으며, 이에 동의합니다.</string>
+	<string name="flk_olympus_location_agree_desc">수신거절 시 최초 서비스 이용이 불가하나, 서비스 이용 후 설정메뉴에서 수신설정 관리가 가능합니다.</string>
+    
+</resources>

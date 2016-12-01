@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="30.3dp"
+        android:layout_height="30.3dp"
+        android:background="@drawable/flk_olympus_btn_radio"
+        android:button="@android:color/transparent"
+        android:focusable="false" 
+        android:clickable="false"/>
+
+    <TextView
+        android:id="@+id/tv_optional_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:textColor="@color/flk_olympus_color_d2d5da"
+        android:textSize="12.8dp" />
+
+</LinearLayout>

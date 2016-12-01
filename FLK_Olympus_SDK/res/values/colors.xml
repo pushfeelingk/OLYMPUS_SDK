@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="flk_olympus_translucent">#7f000000</color>
+	<color name="flk_olympus_transparent">#00000000</color>
+	
+	<color name="flk_olympus_color_ffffff">#ffffff</color>
+	<color name="flk_olympus_color_eff0f2">#eff0f2</color>
+	<color name="flk_olympus_color_e2e4e7">#e2e4e7</color>
+	<color name="flk_olympus_color_dfe1e5">#dfe1e5</color>
+	<color name="flk_olympus_color_d2d5da">#d2d5da</color>
+	<color name="flk_olympus_color_828282">#828282</color>
+	<color name="flk_olympus_color_818181">#818181</color>
+	<color name="flk_olympus_color_313131">#313131</color>
+	<color name="flk_olympus_color_212121">#212121</color>
+	
+	<color name="flk_olympus_color_ffffff_20a">#4dffffff</color>
+	<color name="flk_olympus_color_ffffff_65a">#a6ffffff</color>
+	<color name="flk_olympus_color_000000_65a">#a6000000</color>
+	
+	
+	<color name="flk_olympus_color_ffefef">#ffefef</color>
+	
+</resources>

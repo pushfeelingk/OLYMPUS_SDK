@@ -1,0 +1,849 @@
+[
+    {
+        "outputFile": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 64,
+                    "endOffset": 115
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 64,
+                        "endOffset": 115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 120,
+                    "endColumn": 58,
+                    "endOffset": 174
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 120,
+                        "endColumn": 58,
+                        "endOffset": 174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 179,
+                    "endColumn": 58,
+                    "endOffset": 233
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 179,
+                        "endColumn": 58,
+                        "endOffset": 233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 238,
+                    "endColumn": 58,
+                    "endOffset": 292
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 238,
+                        "endColumn": 58,
+                        "endOffset": 292
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 297,
+                    "endColumn": 58,
+                    "endOffset": 351
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 297,
+                        "endColumn": 58,
+                        "endOffset": 351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 356,
+                    "endColumn": 58,
+                    "endOffset": 410
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 356,
+                        "endColumn": 58,
+                        "endOffset": 410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 415,
+                    "endColumn": 58,
+                    "endOffset": 469
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 415,
+                        "endColumn": 58,
+                        "endOffset": 469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 474,
+                    "endColumn": 58,
+                    "endOffset": 528
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 474,
+                        "endColumn": 58,
+                        "endOffset": 528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 533,
+                    "endColumn": 58,
+                    "endOffset": 587
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 533,
+                        "endColumn": 58,
+                        "endOffset": 587
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 592,
+                    "endColumn": 58,
+                    "endOffset": 646
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 592,
+                        "endColumn": 58,
+                        "endOffset": 646
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 651,
+                    "endColumn": 58,
+                    "endOffset": 705
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 651,
+                        "endColumn": 58,
+                        "endOffset": 705
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 710,
+                    "endColumn": 64,
+                    "endOffset": 770
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 710,
+                        "endColumn": 64,
+                        "endOffset": 770
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 775,
+                    "endColumn": 64,
+                    "endOffset": 835
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 775,
+                        "endColumn": 64,
+                        "endOffset": 835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 840,
+                    "endColumn": 59,
+                    "endOffset": 895
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 840,
+                        "endColumn": 59,
+                        "endOffset": 895
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 900,
+                    "endColumn": 59,
+                    "endOffset": 955
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 900,
+                        "endColumn": 59,
+                        "endOffset": 955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 960,
+                    "endColumn": 49,
+                    "endOffset": 1005
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 960,
+                        "endColumn": 49,
+                        "endOffset": 1005
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1010,
+                    "endColumn": 50,
+                    "endOffset": 1056
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1010,
+                        "endColumn": 50,
+                        "endOffset": 1056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1061,
+                    "endColumn": 63,
+                    "endOffset": 1120
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1061,
+                        "endColumn": 63,
+                        "endOffset": 1120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1125,
+                    "endColumn": 68,
+                    "endOffset": 1189
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1125,
+                        "endColumn": 68,
+                        "endOffset": 1189
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1194,
+                    "endColumn": 69,
+                    "endOffset": 1259
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1194,
+                        "endColumn": 69,
+                        "endOffset": 1259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1264,
+                    "endColumn": 99,
+                    "endOffset": 1359
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1264,
+                        "endColumn": 99,
+                        "endOffset": 1359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1364,
+                    "endColumn": 115,
+                    "endOffset": 1475
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1364,
+                        "endColumn": 115,
+                        "endOffset": 1475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1480,
+                    "endColumn": 46,
+                    "endOffset": 1522
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1480,
+                        "endColumn": 46,
+                        "endOffset": 1522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1527,
+                    "endColumn": 87,
+                    "endOffset": 1610
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1527,
+                        "endColumn": 87,
+                        "endOffset": 1610
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1615,
+                    "endColumn": 85,
+                    "endOffset": 1696
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1615,
+                        "endColumn": 85,
+                        "endOffset": 1696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1701,
+                    "endColumn": 76,
+                    "endOffset": 1773
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1701,
+                        "endColumn": 76,
+                        "endOffset": 1773
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1778,
+                    "endColumn": 94,
+                    "endOffset": 1868
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1778,
+                        "endColumn": 94,
+                        "endOffset": 1868
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1873,
+                    "endColumn": 61,
+                    "endOffset": 1930
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1873,
+                        "endColumn": 61,
+                        "endOffset": 1930
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1935,
+                    "endColumn": 81,
+                    "endOffset": 2012
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1935,
+                        "endColumn": 81,
+                        "endOffset": 2012
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2017,
+                    "endColumn": 57,
+                    "endOffset": 2070
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 2017,
+                        "endColumn": 57,
+                        "endOffset": 2070
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2075,
+                    "endColumn": 80,
+                    "endOffset": 2151
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2075,
+                        "endColumn": 80,
+                        "endOffset": 2151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2156,
+                    "endColumn": 70,
+                    "endOffset": 2222
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2156,
+                        "endColumn": 70,
+                        "endOffset": 2222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2227,
+                    "endColumn": 70,
+                    "endOffset": 2293
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2227,
+                        "endColumn": 70,
+                        "endOffset": 2293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2298,
+                    "endColumn": 88,
+                    "endOffset": 2382
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2298,
+                        "endColumn": 88,
+                        "endOffset": 2382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2387,
+                    "endColumn": 99,
+                    "endOffset": 2482
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 2387,
+                        "endColumn": 99,
+                        "endOffset": 2482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2487,
+                    "endColumn": 65,
+                    "endOffset": 2548
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 2487,
+                        "endColumn": 65,
+                        "endOffset": 2548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2553,
+                    "endColumn": 63,
+                    "endOffset": 2612
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2553,
+                        "endColumn": 63,
+                        "endOffset": 2612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2617,
+                    "endColumn": 94,
+                    "endOffset": 2707
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2617,
+                        "endColumn": 94,
+                        "endOffset": 2707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2712,
+                    "endColumn": 66,
+                    "endOffset": 2774
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2712,
+                        "endColumn": 66,
+                        "endOffset": 2774
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2779,
+                    "endColumn": 74,
+                    "endOffset": 2849
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2779,
+                        "endColumn": 74,
+                        "endOffset": 2849
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2854,
+                    "endColumn": 45,
+                    "endOffset": 2895
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2854,
+                        "endColumn": 45,
+                        "endOffset": 2895
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2900,
+                    "endLine": 49,
+                    "endColumn": 12,
+                    "endOffset": 3210
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2900,
+                        "endLine": 49,
+                        "endColumn": 12,
+                        "endOffset": 3210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3215,
+                    "endLine": 52,
+                    "endColumn": 12,
+                    "endOffset": 3370
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3215,
+                        "endLine": 52,
+                        "endColumn": 12,
+                        "endOffset": 3370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3375,
+                    "endLine": 63,
+                    "endColumn": 12,
+                    "endOffset": 4052
+                },
+                "from": {
+                    "file": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 3375,
+                        "endLine": 63,
+                        "endColumn": 12,
+                        "endOffset": 4052
+                    }
+                }
+            }
+        ]
+    }
+]

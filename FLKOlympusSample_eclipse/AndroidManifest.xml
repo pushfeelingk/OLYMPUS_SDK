@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.flk.olympus.sample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+     <!-- 인터넷 통신 권한 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 네트워크 3G망 상태 파악 권한 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- WIFI망 상태 파악 권한 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 부팅 완료 파악 권한 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- IMEI 획득 권한 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- CPU ON/OFF 상태 파악 권한 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- 블루투스 on/off -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!-- 기지국 정보 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    
+    <!-- 외부 메모리 쓰기 권한 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <meta-data android:name="flk.olympus.AppID" android:value="@string/flk_olympus_appid" />
+        
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <receiver android:name="com.flk.olympus.FLKPushAgentReceiver" >
+            <intent-filter>
+                <action android:name="com.feelingk.olympus.pushagent.lib.RECEIVED_APP_REG_ID" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.RECEIVED_REG_PARAM_ERROR" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.RECEIVED_REG_RESULT_ERROR" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.RECEIVED_APP_MSG_INFO"/>
+
+                <data android:host="olympus" android:scheme="flk_push" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.feelingk.olympus.pushagent.lib.REQUEST_APP_STATE" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.REQUEST_READY_FOR_AGENT" />
+            </intent-filter>
+        </receiver>
+        
+        
+        <receiver
+            android:name="com.feelingk.pushagent.service.PushAgentServiceManager"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.feelingk.olympus.pushagent.lib.APP_REGISTRATION" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.SERVICE_START" />
+				<action android:name="com.feelingk.olympus.pushagent.lib.SERVICE_SHARED_INFO"/>
+                <data android:host="olympus" android:scheme="flk_push" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.feelingk.olympus.pushagent.lib.RESPONSE_READ_MSG" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.AGENT_PAUSE" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.SERVICE_START" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 네트워크 상태 변화 감시 receiver -->
+        <receiver android:name="com.feelingk.pushagent.service.NetworkStateMonitor" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 알람 메니져 receiver -->
+        <receiver
+            android:name="com.feelingk.pushagent.service.PushAgentAlarmManager"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.feelingk.olympus.pushagent.lib.action.checkprocess" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.action.delayprocess" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.action.force" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.action.socket" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.feelingk.pushagent.service.PushAgentServiceAlarmManager"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.feelingk.olympus.pushagent.lib.service.postdelayed" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.service.sleepdelayed"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- IP Push Service -->
+        <service
+            android:name="com.feelingk.pushagent.service.PushAgentService"
+            android:enabled="true" >
+        </service>
+
+        <service android:name="com.feelingk.pushagent.service.RIDInfoValidCheckService"/>
+        
+        <!-- 위치정보 매니저 receiver -->
+        <receiver android:name="com.feelingk.pushagent.service.LBSServiceAlarmManager" >
+            <intent-filter>
+                <action android:name="com.feelingk.olympus.pushagent.lib.action.lbsinfo.lm" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.action.lbsinfo.lmInit" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.action.lbsinfo.wf" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.action.lbsinfo.bl" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.action.lbsinfo.cl" />
+                <action android:name="com.feelingk.olympus.pushagent.lib.action.lbsinfo.al" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.feelingk.pushagent.service.RIDInfoValidCheckService" />
+
+        <!-- excludeFromRecents : 최신 실행목록 리스트에 나오지 않음 -->
+        <activity
+            android:name="com.feelingk.pushagent.popup.WakeUpActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.flk.olympus.activity.PushPopupActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.flk.olympus.activity.LocationAgreeActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.flk.olympus.activity.CouponReceiveActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Holo.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="com.feelingk.pushagent.couponActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.flk.olympus.activity.CouponConfigActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Holo.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.flk.olympus.activity.CouponDetailActivity"
+            android:clearTaskOnLaunch="true"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Holo.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        
+        <provider android:name="com.feelingk.pushagent.db.DataContentProvider" android:authorities="com.flk.olympus.sample" android:exported="true"/>
+        
+    </application>
+
+</manifest>

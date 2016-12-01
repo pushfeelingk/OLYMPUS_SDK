@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/flk_olympus_translucent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="13dp" >
+
+    <LinearLayout
+        android:id="@+id/ly_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/flk_olympus_color_ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="46.8dp"
+                android:gravity="center"
+                android:text="@string/flk_olympus_location_agree"
+                android:textColor="@color/flk_olympus_color_212121"
+                android:textSize="17.8dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/flk_olympus_color_e2e4e7" />
+
+<!--             <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" > -->
+
+                    <WebView 
+                        android:id="@+id/terms_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/flk_olympus_color_ffffff"/>
+                    <!-- <TextView
+                        android:id="@+id/tv_popup_msg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:textColor="@color/flk_olympus_color_818181"
+                        android:textSize="13dp" />
+                </LinearLayout>
+            </ScrollView> -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/flk_olympus_color_e2e4e7" />
+
+            <LinearLayout
+                android:id="@+id/btn_agree_check"
+                android:layout_width="match_parent"
+                android:layout_height="74.3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/check_agree"
+                    android:layout_width="33.5dp"
+                    android:layout_height="33.5dp"
+                    android:background="@drawable/flk_olympus_btn_ok"
+                    android:button="@android:color/transparent"
+                    android:clickable="false"
+                    android:focusable="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:includeFontPadding="false"
+                    android:lineSpacingExtra="4dp"
+                    android:paddingTop="4dp"
+                    android:text="@string/flk_olympus_location_agree_check_desc"
+                    android:textColor="@color/flk_olympus_color_313131"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/flk_olympus_color_e2e4e7" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="68.3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="3.5dp"
+                android:gravity="center"
+                android:lineSpacingExtra="3.5dp"
+                android:text="@string/flk_olympus_location_agree_desc"
+                android:textColor="@color/flk_olympus_color_818181"
+                android:textSize="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/flk_olympus_btn_cancle"
+                    android:text="@string/flk_olympus_no"
+                    android:textColor="@color/flk_olympus_color_ffffff"
+                    android:textSize="14.8dp" />
+
+                <Button
+                    android:id="@+id/btn_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/flk_olympus_btn_accept"
+                    android:text="@string/flk_olympus_yes"
+                    android:textColor="@color/flk_olympus_color_ffffff"
+                    android:textSize="14.8dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

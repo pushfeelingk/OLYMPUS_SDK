@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/flk_olympus_color_eff0f2"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="@color/flk_olympus_color_ffffff" >
+
+            <TextView
+                android:id="@+id/tv_hidden"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/flk_olympus_title"
+                android:textColor="@color/flk_olympus_color_212121"
+                android:textSize="18dp" />
+
+            <ImageButton
+                android:id="@+id/btn_delete"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="13dp"
+                android:layout_marginTop="11dp"
+                android:background="@color/flk_olympus_transparent"
+                android:src="@drawable/flk_olympus_btn_del" />
+
+            <ImageButton
+                android:id="@+id/btn_setting"
+                android:layout_width="47dp"
+                android:layout_height="47dp"
+                android:layout_alignParentLeft="true"
+                android:background="@color/flk_olympus_transparent"
+                android:src="@drawable/flk_olympus_btn_setting" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/flk_olympus_color_dfe1e5" />
+        
+        <com.flk.olympus.view.PullToRefreshView
+            android:id="@+id/pullToRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/flk_olympus_transparent" />
+        </com.flk.olympus.view.PullToRefreshView>
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/flk_olympus_empty_msg"
+            android:textColor="@color/flk_olympus_color_828282"
+            android:textSize="21dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_top"
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/flk_olympus_transparent"
+        android:src="@drawable/flk_olympus_btn_top" />
+
+</RelativeLayout>

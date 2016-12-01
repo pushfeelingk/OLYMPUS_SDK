@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/debug/anim/flk_olympus_progress_loding.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/src/main/res/anim/flk_olympus_progress_loding.xml"
+    },
+    {
+        "merged": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/build/intermediates/res/merged/debug/anim/ic_refresh_loading.xml",
+        "source": "/Users/SMY/Documents/AndroidStudioWorkspace/OlympusSample_AndroidStudio/FLK_Olympus_SDK/src/main/res/anim/ic_refresh_loading.xml"
+    }
+]
